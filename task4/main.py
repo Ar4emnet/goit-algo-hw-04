@@ -33,7 +33,7 @@ def main():
             except IndexError:
                 print("Usage: phone <name>")
         elif command == "all":
-            function_bot.show_all(contacts)
+            print(function_bot.show_all(contacts))
 
         elif command in ["exit", "close"]:
             print("Goodbye!")

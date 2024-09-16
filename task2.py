@@ -8,7 +8,7 @@ def get_cats_info(path):
             for line in file:
                 try:
                     id, name, age = line.strip().split(',')
-                    cats_info.append({'id': id, 'name': name, 'age': int(age)})
+                    cats_info.append({'id': id, 'name': name, 'age': age})
                 except ValueError:
                     print(f'Invalid data format in line: {line}')
     except FileNotFoundError:
