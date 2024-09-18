@@ -1,3 +1,3 @@
-from task4.function_bot.functions import add_contact, parse_input, show_phone, show_all, change_contact
+from function_bot.functions import add_contact, parse_input, show_phone, show_all, change_contact
 
 __all__ = ["add_contact", "parse_input", "show_phone", "show_all", "change_contact"]
